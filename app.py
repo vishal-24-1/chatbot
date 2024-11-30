@@ -248,7 +248,7 @@ the response should be in bullet points
         "generationConfig": generation_config
     }
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyCC7ugNQbflA27ZTbjruFRMkWlklwvM59c"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyDXa8QFWH0j9LAiTVArnSw5EpZiC4GzA0Y"
     headers = {"Content-Type": "application/json"}
 
     for attempt in range(max_retries):
